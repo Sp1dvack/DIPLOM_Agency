@@ -1,0 +1,53 @@
+﻿<Window x:Class="Agency.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agency"
+        mc:Ignorable="d"
+        Title="Home" Height="546" Width="960" WindowStartupLocation="CenterScreen" Icon="icon.png">
+
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Bahnschrift SemiLight SemiCondensed"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Background" Value="{x:Null}"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="319*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Background="#FF445571">
+            <ListView x:Name="ListViewMenu"  Background="{x:Null}" SelectionChanged="selectItem" BorderBrush="{x:Null}">
+                <ListViewItem>
+                    <Label Content="Отделы"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <Label Content="Сотрудники"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <Label Content="Объекты"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <Label Content="Фото"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <Label Content="Типы объектов"/>
+                </ListViewItem>
+            </ListView>
+        </StackPanel>
+
+        <Grid x:Name="GridBackground" Grid.Column="1">
+
+        </Grid>
+
+    </Grid>
+</Window>

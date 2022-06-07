@@ -1,0 +1,111 @@
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\Agency.exe.config
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\Agency.exe
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\Agency.pdb
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\EntityFramework.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\EntityFramework.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.csproj.AssemblyReference.cache
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.csproj.SuggestedBindingRedirects.cache
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddDepartment.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddEmployee.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddImage.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddObject.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddType.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Dapartment.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Employeers.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Home.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\MainWindow.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\ObjectPage.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\TypePage.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\App.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency_Content.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency_MarkupCompile.cache
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency_MarkupCompile.lref
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddDepartment.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddEmployee.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddImage.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddObject.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\AddType.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Dapartment.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Employeers.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Home.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\MainWindow.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\ObjectPage.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\TypePage.baml
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.g.resources
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.Properties.Resources.resources
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.csproj.GenerateResource.cache
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.csproj.CoreCompileInputs.cache
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.csproj.CopyComplete
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.exe
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Agency.pdb
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Photo.g.cs
+C:\Users\Мария\Desktop\Agency\Agency\obj\Debug\Photo.baml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Buffers.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Memory.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Buffers.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Memory.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Мария\Desktop\Agency\Agency\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\Agency.exe.config
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\Agency.exe
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\Agency.pdb
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\EntityFramework.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Buffers.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Memory.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\EntityFramework.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Buffers.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Memory.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.csproj.AssemblyReference.cache
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddDepartment.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddEmployee.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddImage.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddObject.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddType.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Dapartment.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Employeers.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Home.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\MainWindow.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\ObjectPage.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Photo.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\TypePage.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\App.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency_Content.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency_MarkupCompile.cache
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency_MarkupCompile.lref
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddDepartment.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddEmployee.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddImage.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddObject.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\AddType.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Dapartment.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Employeers.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Home.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\MainWindow.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\ObjectPage.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Photo.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\TypePage.baml
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.g.resources
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.Properties.Resources.resources
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.csproj.GenerateResource.cache
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.csproj.CoreCompileInputs.cache
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.csproj.CopyComplete
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.exe
+C:\Users\Жекич\Desktop\Диплом\Диплом 2.0\Agency (1)\Agency\obj\Debug\Agency.pdb

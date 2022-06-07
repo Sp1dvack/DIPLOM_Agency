@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="Agency.Photo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agency"
+             
+             mc:Ignorable="d" 
+             d:DesignHeight="510" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <local:ByteToImageConverter x:Key="binarToImg"/>
+
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="Bahnschrift SemiLight SemiCondensed"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Background" Value="{x:Null}"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+            </Style>
+
+            
+        </UserControl.Resources>
+
+
+
+    <Grid x:Name="grid">
+
+        <StackPanel>
+            <Label Content="Все фото" Margin="5" Grid.Row="0"></Label>
+            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                <Label Content="Адрес" FontSize="15" Height="25" Margin="5"></Label>
+                <ComboBox  x:Name="pAdress" DisplayMemberPath="Adress" SelectedItem="{Binding Object}"  Height="20" Width="100" Margin="10 0 0 0" SelectionChanged="pAdress_SelectionChanged"></ComboBox>
+            </StackPanel>
+
+            <ListView x:Name="list"  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+          ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalContentAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Height="353">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border CornerRadius="7" BorderBrush="#FF445571" BorderThickness="1"
+        VerticalAlignment="Center" UseLayoutRounding="True"  Width="350" Height="auto" Background="#FF445571">
+                            <Grid Margin="10">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Object.Adress, StringFormat=Адрес: \{0\}}" Foreground="White" FontSize="15" FontFamily="Bahnschrift SemiLight SemiCondensed" />
+                                    <TextBlock Text="{Binding Object.ObjectType.TypeName, StringFormat=Тип: \{0\}}" Foreground="White" FontSize="15" FontFamily="Bahnschrift SemiLight SemiCondensed"/>
+                                    <TextBlock Text="{Binding Object.NumberOfRooms, StringFormat=Кол-во комнат: \{0\}}" Foreground="White" FontFamily="Bahnschrift SemiLight SemiCondensed" FontSize="15"/>
+                                    <TextBlock Text="{Binding Object.Price, StringFormat=Стоимость: ##0.0 руб.}" Foreground="White" FontSize="15" FontFamily="Bahnschrift SemiLight SemiCondensed"/>
+                                    <TextBlock Text="{Binding Object.Employee.FullName, StringFormat=Сотрудник: \{0\}}" Foreground="White" FontSize="15" FontFamily="Bahnschrift SemiLight SemiCondensed"/>
+                                    <Image x:Name="img" Source="{Binding Img, Converter={StaticResource binarToImg}, Mode=OneWay}" Height="280" Margin="0"/>
+                                    <Button Margin="0 10 0 0" Height="40" HorizontalAlignment="Center" Content="Редактировать" FontSize="13" Background="#FF527B9E" BorderBrush="{x:Null}" Foreground="White" Click="Button_Click_3" />
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="3">
+                <Button Content="Добавить" FontFamily="Bahnschrift SemiLight SemiCondensed" Width="100" Height="30" BorderBrush="{x:Null}" Foreground="White" Background="#FF445571" FontSize="19" Margin="15" Click="Button_Click" />
+                <Button Content="Удалить" FontFamily="Bahnschrift SemiLight SemiCondensed" Width="100" Height="30" BorderBrush="{x:Null}" Foreground="White" Background="#FF445571" FontSize="19" Click="Button_Click_2" Margin="0 0 15 0" />
+                <Button Content="Обновить" FontFamily="Bahnschrift SemiLight SemiCondensed" Width="100" Height="30" BorderBrush="{x:Null}" Foreground="White" Background="#FF445571" FontSize="19" Click="Button_Click_5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

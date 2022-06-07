@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AgencyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="DepartmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Employee__Depart__2E1BDC42" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DepartmentID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Employee__Depart__2E1BDC42" FromRole="Employee" ToRole="Department" />
+    <NavigationProperty Name="Object" Relationship="Self.FK__Object__Employee__300424B4" FromRole="Employee" ToRole="Object" />
+  </EntityType>
+  <EntityType Name="Images">
+    <Key>
+      <PropertyRef Name="ImgID" />
+    </Key>
+    <Property Name="ImgID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Img" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ObjectID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Object" Relationship="Self.FK__Images__ObjectID__2F10007B" FromRole="Images" ToRole="Object" />
+  </EntityType>
+  <EntityType Name="Object">
+    <Key>
+      <PropertyRef Name="ObjectID" />
+    </Key>
+    <Property Name="ObjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumberOfRooms" Type="Int32" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="Cover" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Object__Employee__300424B4" FromRole="Object" ToRole="Employee" />
+    <NavigationProperty Name="Images" Relationship="Self.FK__Images__ObjectID__2F10007B" FromRole="Object" ToRole="Images" />
+    <NavigationProperty Name="ObjectType" Relationship="Self.FK__Object__TypeID__30F848ED" FromRole="Object" ToRole="ObjectType" />
+  </EntityType>
+  <EntityType Name="ObjectType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Object" Relationship="Self.FK__Object__TypeID__30F848ED" FromRole="ObjectType" ToRole="Object" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IDUser" />
+    </Key>
+    <Property Name="IDUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Employee__Depart__2E1BDC42">
+    <End Role="Department" Type="Self.Department" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DepartmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Object__Employee__300424B4">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Object" Type="Self.Object" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Object">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Images__ObjectID__2F10007B">
+    <End Role="Object" Type="Self.Object" Multiplicity="1" />
+    <End Role="Images" Type="Self.Images" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Object">
+        <PropertyRef Name="ObjectID" />
+      </Principal>
+      <Dependent Role="Images">
+        <PropertyRef Name="ObjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Object__TypeID__30F848ED">
+    <End Role="ObjectType" Type="Self.ObjectType" Multiplicity="1" />
+    <End Role="Object" Type="Self.Object" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ObjectType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Object">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AgencyEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Department" EntityType="Self.Department" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="Images" EntityType="Self.Images" />
+    <EntitySet Name="Object" EntityType="Self.Object" />
+    <EntitySet Name="ObjectType" EntityType="Self.ObjectType" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK__Employee__Depart__2E1BDC42" Association="Self.FK__Employee__Depart__2E1BDC42">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Object__Employee__300424B4" Association="Self.FK__Object__Employee__300424B4">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Object" EntitySet="Object" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Images__ObjectID__2F10007B" Association="Self.FK__Images__ObjectID__2F10007B">
+      <End Role="Object" EntitySet="Object" />
+      <End Role="Images" EntitySet="Images" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Object__TypeID__30F848ED" Association="Self.FK__Object__TypeID__30F848ED">
+      <End Role="ObjectType" EntitySet="ObjectType" />
+      <End Role="Object" EntitySet="Object" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
